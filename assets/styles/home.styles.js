@@ -32,7 +32,7 @@ export const styles = StyleSheet.create({
   },
   welcomeText: {
     fontSize: 14,
-    color: COLORS.textLight,
+    color: COLORS.textPrimary,
     marginBottom: 2,
   },
   usernameText: {
@@ -335,71 +335,5 @@ export const styles = StyleSheet.create({
   },
   typeIcon: {
     marginRight: 8,
-  },
-  amountContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    borderBottomWidth: 1,
-    borderBottomColor: COLORS.border,
-    paddingBottom: 16,
-    marginBottom: 20,
-  },
-  currencySymbol: {
-    fontSize: 32,
-    fontWeight: "bold",
-    color: COLORS.text,
-    marginRight: 8,
-  },
-  amountInput: {
-    flex: 1,
-    fontSize: 36,
-    fontWeight: "bold",
-  },
-  inputContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    borderWidth: 1,
-    borderColor: COLORS.border,
-    borderRadius: 12,
-    padding: 4,
-    marginBottom: 20,
-    backgroundColor: COLORS.white,
-  },
-  inputIcon: {
-    marginHorizontal: 12,
-  },
-  input: {
-    flex: 1,
-    fontSize: 16,
-    padding: 12,
-  },
-  categoryGrid: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 10,
-  },
-  categoryButton: {
-    flexDirection: "row",
-    alignItems: "center",
-    paddingHorizontal: 16,
-    paddingVertical: 10,
-    borderRadius: 20,
-    borderWidth: 1,
-    borderColor: COLORS.border,
-    backgroundColor: COLORS.white,
-  },
-  categoryButtonActive: {
-    backgroundColor: COLORS.primary,
-    borderColor: COLORS.primary,
-  },
-  categoryIcon: {
-    marginRight: 6,
-  },
-  categoryButtonText: {
-    color: COLORS.text,
-    fontSize: 14,
-  },
-  categoryButtonTextActive: {
-    color: COLORS.white,
   },
 });
